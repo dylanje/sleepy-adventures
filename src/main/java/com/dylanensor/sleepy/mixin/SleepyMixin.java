@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class SleepyMixin {
     @Inject(at = @At("HEAD"), method = "init()V")
     private void init(CallbackInfo info) {
-        SleepyAdventures.LOGGER.info("This line is printed by an example mod mixin!");
+        SleepyAdventures.LOGGER.info("mixins napping...");
     }
 }
