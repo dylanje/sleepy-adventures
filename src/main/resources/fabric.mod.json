@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "sleepyadventures",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -9,8 +9,8 @@
     "Me!"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/dylanje/",
+    "sources": "https://github.com/dylanje/sleepy-adventures"
   },
 
   "license": "CC0-1.0",
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.dylanensor.sleepy.SleepyAdventures"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "sleepyadventures.mixins.json"
   ],
 
   "depends": {
