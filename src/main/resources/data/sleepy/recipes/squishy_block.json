@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#" : {
+      "item": "sleepy:squishy_ball"
+    }
+  },
+  "result": {
+    "item": "sleepy:squishy_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sleepy:squishy_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "sleepy:squishy_ball"
+  }
+}
