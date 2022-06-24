@@ -17,6 +17,6 @@ public class EntityInit {
     public static void init() {
         Registry.register(Registry.ENTITY_TYPE, new Identifier(MOD_ID, "squishy"), SQUISHY_ENTITY);
 
-        FabricDefaultAttributeRegistry.register(SQUISHY_ENTITY, SquishyEntity.createSquidAttributes());
+        FabricDefaultAttributeRegistry.register(SQUISHY_ENTITY,SquishyEntity.createSquidAttributes());
     }
 }
